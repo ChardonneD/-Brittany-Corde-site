@@ -1,0 +1,10 @@
+:root {
+  --color-primary: #E89C3D;
+  --color-secondary: #1E4D4F;
+  --color-light: #F9F7F3;
+  --color-dark: #2E2E2E;
+  --color-accent: #F26B5E;
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+  --font-accent: 'Raleway', sans-serif;
+}

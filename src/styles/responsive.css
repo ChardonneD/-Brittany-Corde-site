@@ -1,0 +1,30 @@
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+  .cta-buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero {
+    flex-direction: row;
+    align-items: center;
+  }
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1025px) {
+  .hero {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .services-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
